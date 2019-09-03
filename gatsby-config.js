@@ -5,5 +5,28 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `events`,
+        path: `${__dirname}/content/`,
+      },
+    },
+        {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/content/gallery`,
+      },
+    },
+    `gatsby-transformer-json`,
+         {
+      resolve:  `gatsby-plugin-breadcrumb`,
+      options: {
+        crumbStyle: { color: "#000" },
+          crumbActiveStyle: { color: "orange" }
+      },
+    },
+    ]
 }

@@ -1,0 +1,20 @@
+.card{
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+}
+.container{
+    display:table;
+    width:100%
+}
+.col{
+    display:table-cell;
+}
+.truncate {
+  line-height: 1.5em;
+  height: 3em;       /* height is 2x line-height, so two lines will display */
+  overflow: hidden;  /* prevents extra lines from being visible */
+    font-size: 12px;
+
+
+}
+

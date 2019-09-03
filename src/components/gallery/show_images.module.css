@@ -1,0 +1,8 @@
+.gallery_small_images {
+    box-shadow: 1px 1px grey;
+    overflow:hidden
+}
+.fit_in_div{
+    min-width:100%;
+}
+
