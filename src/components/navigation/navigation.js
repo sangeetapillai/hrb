@@ -26,7 +26,7 @@ export default ({data}) => {
             </Nav>
               <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="/"><FaHome /></a>
+                    <a className="nav-link" href="/home"><FaHome /></a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#"><FaBell /></a>
