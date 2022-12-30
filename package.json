@@ -15,7 +15,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "create-react-class": "^15.6.3",
-    "gatsby": "^2.13.73",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-breadcrumb": "^3.2.0",
     "gatsby-source-filesystem": "^2.1.18",
     "gatsby-transformer-json": "^2.2.6",
